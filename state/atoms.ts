@@ -34,3 +34,8 @@ export const walletNoState = atom<walletNo>({
     key: "walletNoState",
     default: [],
 });
+
+export const keyState = atom<boolean[]>({
+    key: "viewKey",
+    default: [],
+})
