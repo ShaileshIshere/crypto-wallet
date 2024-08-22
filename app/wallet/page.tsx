@@ -1,5 +1,9 @@
-export default function wallet() {
+import Navbar from "@/components/Navbar"
+
+const wallet = () => {
     return <div>
-        welcome to wallet
+        <Navbar />
     </div>
 }
+
+export default wallet;
